@@ -12,6 +12,7 @@ class PYQDemo:
         b.setText("test label")
 
     def startGUI(self):
+        w.setWindowTitle("testing PYQT")
         w.show()
         sys.exit(self.app.exec_())
 
