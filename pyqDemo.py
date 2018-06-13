@@ -15,6 +15,9 @@ class PYQDemo:
         qbutn = QPushButton(text, self)
         qbutn.move(posx, posy)
 
+    def addEditor(self, pox, poy, width=620):
+        pass
+
     def startGUI(self):
         w.setWindowTitle("testing PYQT")
         w.show()
