@@ -16,7 +16,7 @@ class PYQDemo:
         qbutn.move(posx, posy)
 
     def addEditor(self, pox, poy, width=620):
-        pass
+        te = QPlainTextEdit(self)
 
     def startGUI(self):
         w.setWindowTitle("testing PYQT")
