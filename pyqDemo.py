@@ -11,6 +11,10 @@ class PYQDemo:
         b = QtGui.QLabel()
         b.setText("test label")
 
+    def addButton(self, text, posx, posy):
+        qbutn = QPushButton(text, self)
+
+
     def startGUI(self):
         w.setWindowTitle("testing PYQT")
         w.show()
