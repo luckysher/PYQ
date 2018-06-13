@@ -13,7 +13,7 @@ class PYQDemo:
 
     def addButton(self, text, posx, posy):
         qbutn = QPushButton(text, self)
-
+        qbutn.move(posx, posy)
 
     def startGUI(self):
         w.setWindowTitle("testing PYQT")
