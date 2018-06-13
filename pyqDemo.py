@@ -18,6 +18,9 @@ class PYQDemo:
     def addEditor(self, pox, poy, width=620):
         te = QPlainTextEdit(self)
 
+    def addPict(self, path, pox, poy):
+        pass
+
     def startGUI(self):
         w.setWindowTitle("testing PYQT")
         w.show()
