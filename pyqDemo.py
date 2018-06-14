@@ -37,6 +37,8 @@ class PYQDemo:
 
         self.addLabel("Name", 100, 120)
 
+        self.addLabel("Age", 100, 120)
+
         w.show()
         sys.exit(self.app.exec_())
 
