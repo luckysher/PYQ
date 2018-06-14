@@ -19,7 +19,7 @@ class PYQDemo:
         te = QPlainTextEdit(self)
 
     def addPict(self, path, pox, poy):
-        pass
+        pic.setFrameStyle(Qt.DashLine)
 
     def startGUI(self):
         w.setWindowTitle("testing PYQT")
