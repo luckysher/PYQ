@@ -30,6 +30,8 @@ class PYQDemo:
 
     def startGUI(self):
         w.setWindowTitle("testing PYQT")
+        self.addTopTitle()
+
         w.show()
         sys.exit(self.app.exec_())
 
