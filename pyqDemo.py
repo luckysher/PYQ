@@ -8,7 +8,7 @@ class PYQDemo:
         self.app = QtGui.QApplication(sys.argv)
 
     def addTopTitle(self):
-        pass
+        self.setTopHeading("PyQT demo form ")
 
     def addLabel(self, lableStr, pox, poy):
         b = QtGui.QLabel()
