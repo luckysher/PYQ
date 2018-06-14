@@ -10,6 +10,7 @@ class PYQDemo:
     def addTopTitle(self):
         self.setTopHeading("PyQT demo form ")
         setPosition('top', 'center')
+        setBackColor("Blue")
 
     def addLabel(self, lableStr, pox, poy):
         b = QtGui.QLabel()
