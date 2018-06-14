@@ -17,6 +17,7 @@ class PYQDemo:
 
     def addEditor(self, pox, poy, width=620):
         te = QPlainTextEdit(self)
+        qbutn.move(posx, posy)
 
     def addPict(self, path, pox, poy):
         pic.setFrameStyle(Qt.DashLine)
