@@ -7,6 +7,9 @@ class PYQDemo:
     def __init__(self):
         self.app = QtGui.QApplication(sys.argv)
 
+    def addTopTitle(self):
+        pass
+
     def addLabel(self, lableStr, pox, poy):
         b = QtGui.QLabel()
         b.setText("test label")
