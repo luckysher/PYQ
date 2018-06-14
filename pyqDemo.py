@@ -34,6 +34,9 @@ class PYQDemo:
         self.addTopTitle()
 
         self.addPict("pic.png", 100, 100)
+
+        self.addLabel("Name", 100, 120)
+
         w.show()
         sys.exit(self.app.exec_())
 
