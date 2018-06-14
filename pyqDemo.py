@@ -24,6 +24,7 @@ class PYQDemo:
 
     def addPict(self, path, pox, poy):
         pic.setFrameStyle(Qt.DashLine)
+        pic.setWidth(100)
 
     def startGUI(self):
         w.setWindowTitle("testing PYQT")
